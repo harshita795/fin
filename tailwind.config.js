@@ -7,12 +7,18 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        customRed: "#FF5555",
+      },
+      fontFamily: {
+        "clash-display": ["Clash Display", "sans-serif"],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "custom-gradient": 'radial-gradient(ellipse at center, red, yellow)',
       },
     },
   },
   plugins: [],
-};
+}
