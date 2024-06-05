@@ -924,7 +924,7 @@ export default function Homepage() {
       md:mx-32
       my-10
       border-2
-      border-black-
+      ml-20
       "/>
 
       <p className="
@@ -932,6 +932,7 @@ export default function Homepage() {
       font-medium
       mb-10
       text-center
+      ml-20
       ">Copyright 2022 Uifry.Com All Rights Reserved</p>
 
 
